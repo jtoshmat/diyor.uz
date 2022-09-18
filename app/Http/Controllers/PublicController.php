@@ -9,4 +9,7 @@ class PublicController extends Controller
     public function index(){
         return view('index');
     }
+    public function service(){
+        return view('service');
+    }
 }

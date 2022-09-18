@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\PublicController::class, 'index'])->name('index');
+Route::get('/service', [\App\Http\Controllers\PublicController::class, 'service'])->name('service');
 
 
 
